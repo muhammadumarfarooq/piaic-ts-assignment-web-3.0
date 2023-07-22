@@ -39,6 +39,20 @@
 
 // 6. STRIPPING NAMES
 
-const personName = "\t\n    Umar Farooq   \t\n";
-console.log("Person name with whitespace", personName);
-console.log("Person name with stripping whitespace:", personName.trim());
+// const personName = "\t\n    Umar Farooq   \t\n";
+// console.log("Person name with whitespace", personName);
+// console.log("Person name with stripping whitespace:", personName.trim());
+
+// 7. Number Eight
+
+const addition = 5 + 3;
+const subtraction = 10 - 2;
+const multiplication = 4 * 2;
+const division = 16 / 2;
+
+console.log('Addition:', addition);
+console.log('Subtraction:', subtraction);
+console.log('Multiplication:', multiplication);
+console.log('Division:', division);
+
+
