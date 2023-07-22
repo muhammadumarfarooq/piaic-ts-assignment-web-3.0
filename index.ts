@@ -32,7 +32,13 @@
 
 // 5. PRINT FAMOUS QUOTE 2
 
-const famous_person = 'Allama Iqbal';
-const message = `${famous_person} once said, "people who have no hold over their process of thinking ara likely to be ruined by liberty of thought."`;
+// const famous_person = 'Allama Iqbal';
+// const message = `${famous_person} once said, "people who have no hold over their process of thinking ara likely to be ruined by liberty of thought."`;
+//
+// console.log(message);
 
-console.log(message);
+// 6. STRIPPING NAMES
+
+const personName = "\t\n    Umar Farooq   \t\n";
+console.log("Person name with whitespace", personName);
+console.log("Person name with stripping whitespace:", personName.trim());
