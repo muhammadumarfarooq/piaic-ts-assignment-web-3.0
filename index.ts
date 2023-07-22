@@ -165,3 +165,24 @@ console.log('Original Reverse Alphabetical', originalReverseAlphabetical);
 
 // 19. Number of items
 console.log('Number of locations:', locations.length);
+
+// 20. LIST
+
+const listOfItems = ['K2', 'Ravi', 'India', 'Pakistan', 'Faisalabad', 'English', 'Urdu'];
+console.log(listOfItems);
+
+// 21. OBJECTS
+
+const student = {
+    name: 'Umar',
+    age: 24,
+    city: 'Faisalabad'
+};
+
+const car = {
+    brand: 'Honda',
+    model: '2020',
+    price: '1000000'
+};
+
+console.log(student, car);
