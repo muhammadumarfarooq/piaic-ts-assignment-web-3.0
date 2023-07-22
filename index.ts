@@ -10,5 +10,16 @@
 
 // 2. PRINT PERSON NAME
 
-const personName = "Hello Umar, would you like to learn TS?"
-console.log(personName);
+// const personName = "Hello Umar, would you like to learn TS?"
+// console.log(personName);
+
+// 2. PRINT NAME CASES
+
+const userName = "umaR"
+const nameLowerCase = userName.toLowerCase();
+const nameUpperCase = userName.toUpperCase();
+const nameSentenceCase = nameLowerCase[0].toUpperCase() + nameLowerCase.slice(1);
+
+console.log('Lowercase: ', nameLowerCase);
+console.log('Uppercase: ', nameUpperCase);
+console.log('Sentence case: ', nameSentenceCase);
