@@ -13,13 +13,18 @@
 // const personName = "Hello Umar, would you like to learn TS?"
 // console.log(personName);
 
-// 2. PRINT NAME CASES
+// 3. PRINT NAME CASES
 
-const userName = "umaR"
-const nameLowerCase = userName.toLowerCase();
-const nameUpperCase = userName.toUpperCase();
-const nameSentenceCase = nameLowerCase[0].toUpperCase() + nameLowerCase.slice(1);
+// const userName = "umaR"
+// const nameLowerCase = userName.toLowerCase();
+// const nameUpperCase = userName.toUpperCase();
+// const nameSentenceCase = nameLowerCase[0].toUpperCase() + nameLowerCase.slice(1);
+//
+// console.log('Lowercase: ', nameLowerCase);
+// console.log('Uppercase: ', nameUpperCase);
+// console.log('Sentence case: ', nameSentenceCase);
 
-console.log('Lowercase: ', nameLowerCase);
-console.log('Uppercase: ', nameUpperCase);
-console.log('Sentence case: ', nameSentenceCase);
+// 4. PRINT FAMOUS QUOTE
+
+
+console.log('Allama Iqbal once said, "people who have no hold over their process of thinking ara likely to be ruined by liberty of thought."');
