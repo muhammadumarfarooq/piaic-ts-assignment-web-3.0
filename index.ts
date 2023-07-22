@@ -49,14 +49,32 @@
 // const subtraction = 10 - 2;
 // const multiplication = 4 * 2;
 // const division = 16 / 2;
-//
+
+// 8. RESULT
 // console.log('Addition:', addition);
 // console.log('Subtraction:', subtraction);
 // console.log('Multiplication:', multiplication);
 // console.log('Division:', division);
 
-// 8. FAVORITE NUMBER
-const favoriteNumber = 4;
-const message = `My favorite number is ${favoriteNumber}.`;
+// 9. FAVORITE NUMBER
+// const favoriteNumber = 4;
+// const message = `My favorite number is ${favoriteNumber}.`;
+//
+// console.log(message);
 
-console.log(message);
+// 10. ADDING COMMENTS TO PROGRAM
+
+// 11. NAMES
+
+// const names = ['Awais', 'Hamza', 'Hasan'];
+// console.log(names[0]);
+// console.log(names[1]);
+// console.log(names[2]);
+//
+
+// 12. GREETINGS
+
+const names = ['Awais', 'Hamza', 'Hasan'];
+console.log(`${names[0]}, Happy Birthday!!`);
+console.log(`${names[1]}, Happy Birthday!!`);
+console.log(`${names[2]}, Happy Birthday!!`);
