@@ -81,8 +81,18 @@
 
 // 13. YOUR OWN ARRAY
 
-const favoriteTransportations = ['Car', 'Motorcycle', 'Riksha'];
+// const favoriteTransportations = ['Car', 'Motorcycle', 'Riksha'];
+//
+// console.log(`I would like to have a ${favoriteTransportations[0]}.`);
+// console.log(`I would like to use a ${favoriteTransportations[1]}.`);
+// console.log(`I would like to travel ${favoriteTransportations[2]}.`);
 
-console.log(`I would like to have a ${favoriteTransportations[0]}.`);
-console.log(`I would like to use a ${favoriteTransportations[1]}.`);
-console.log(`I would like to travel ${favoriteTransportations[2]}.`);
+// 14. Guest List
+
+const favoritePerson = ['Umar', 'Hasan', 'Hamza'];
+
+console.log(`Hey ${favoritePerson[0]}, I wanna invite you to dinner.`);
+console.log(`Hey ${favoritePerson[1]}, I just sent you an invitation for dinner.`);
+console.log(`Hey ${favoritePerson[2]}, here is the invitation for dinner.`);
+
+
