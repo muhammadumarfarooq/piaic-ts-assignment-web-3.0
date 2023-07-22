@@ -95,4 +95,52 @@ console.log(`Hey ${favoritePerson[0]}, I wanna invite you to dinner.`);
 console.log(`Hey ${favoritePerson[1]}, I just sent you an invitation for dinner.`);
 console.log(`Hey ${favoritePerson[2]}, here is the invitation for dinner.`);
 
+// 15. Modify Guest list
 
+const friendIndexWhoCannotAttend = 1;
+
+console.log(`================`);
+
+console.log(`${favoritePerson[friendIndexWhoCannotAttend]}, cannot attend.`);
+
+favoritePerson[friendIndexWhoCannotAttend] = "Awais";
+
+console.log(`================`);
+console.log(`Hey ${favoritePerson[0]}, I wanna invite you to dinner.`);
+console.log(`Hey ${favoritePerson[1]}, I just sent you an invitation for dinner.`);
+console.log(`Hey ${favoritePerson[2]}, here is the invitation for dinner.`);
+
+// 16. More Guests
+
+console.log(`Hey ${favoritePerson[0]}, I just got a bigger dinner table.`);
+console.log(`Hey ${favoritePerson[1]}, I just got a bigger dinner table.`);
+console.log(`Hey ${favoritePerson[2]}, I just got a bigger dinner table.`);
+
+favoritePerson.unshift('Umair');
+console.log(`Hey ${favoritePerson[0]}, I wanna invite you to dinner.`);
+
+console.log('Guests invited so far:', favoritePerson);
+
+favoritePerson.splice(2, 0, 'Naveed');
+
+console.log(`======= NEW INVITATION =========`);
+console.log(`Hey ${favoritePerson[0]}, I wanna invite you to dinner.`);
+console.log(`Hey ${favoritePerson[1]}, I just sent you an invitation for dinner.`);
+console.log(`Hey ${favoritePerson[2]}, here is the invitation for dinner.`);
+console.log(`Hey ${favoritePerson[3]}, here is the invitation for dinner.`);
+console.log(`Hey ${favoritePerson[4]}, I just sent you an invitation for dinner.`);
+
+// 17. Shrinking Guest List
+
+console.log('Sorry, I can invite only two guests.');
+
+console.log(`Hey ${favoritePerson.pop()}, sorry, I can't invite you to dinner`);
+console.log(`Hey ${favoritePerson.pop()}, sorry, I can't invite you to dinner`);
+console.log(`Hey ${favoritePerson.pop()}, sorry, I can't invite you to dinner`);
+
+console.log(`Hey ${favoritePerson[0]}, you are still invited`);
+console.log(`Hey ${favoritePerson[1]}, you are still invited`);
+
+favoritePerson.pop();
+favoritePerson.pop();
+console.log('Invitation List:', favoritePerson);
