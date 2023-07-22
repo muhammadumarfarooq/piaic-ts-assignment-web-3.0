@@ -27,4 +27,12 @@
 // 4. PRINT FAMOUS QUOTE
 
 
-console.log('Allama Iqbal once said, "people who have no hold over their process of thinking ara likely to be ruined by liberty of thought."');
+// console.log('Allama Iqbal once said, "people who have no hold over their process of thinking ara likely to be ruined by liberty of thought."');
+
+
+// 5. PRINT FAMOUS QUOTE 2
+
+const famous_person = 'Allama Iqbal';
+const message = `${famous_person} once said, "people who have no hold over their process of thinking ara likely to be ruined by liberty of thought."`;
+
+console.log(message);
