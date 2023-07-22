@@ -45,14 +45,18 @@
 
 // 7. Number Eight
 
-const addition = 5 + 3;
-const subtraction = 10 - 2;
-const multiplication = 4 * 2;
-const division = 16 / 2;
+// const addition = 5 + 3;
+// const subtraction = 10 - 2;
+// const multiplication = 4 * 2;
+// const division = 16 / 2;
+//
+// console.log('Addition:', addition);
+// console.log('Subtraction:', subtraction);
+// console.log('Multiplication:', multiplication);
+// console.log('Division:', division);
 
-console.log('Addition:', addition);
-console.log('Subtraction:', subtraction);
-console.log('Multiplication:', multiplication);
-console.log('Division:', division);
+// 8. FAVORITE NUMBER
+const favoriteNumber = 4;
+const message = `My favorite number is ${favoriteNumber}.`;
 
-
+console.log(message);
