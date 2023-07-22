@@ -74,7 +74,15 @@
 
 // 12. GREETINGS
 
-const names = ['Awais', 'Hamza', 'Hasan'];
-console.log(`${names[0]}, Happy Birthday!!`);
-console.log(`${names[1]}, Happy Birthday!!`);
-console.log(`${names[2]}, Happy Birthday!!`);
+// const names = ['Awais', 'Hamza', 'Hasan'];
+// console.log(`${names[0]}, Happy Birthday!!`);
+// console.log(`${names[1]}, Happy Birthday!!`);
+// console.log(`${names[2]}, Happy Birthday!!`);
+
+// 13. YOUR OWN ARRAY
+
+const favoriteTransportations = ['Car', 'Motorcycle', 'Riksha'];
+
+console.log(`I would like to have a ${favoriteTransportations[0]}.`);
+console.log(`I would like to use a ${favoriteTransportations[1]}.`);
+console.log(`I would like to travel ${favoriteTransportations[2]}.`);
