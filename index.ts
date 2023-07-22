@@ -163,4 +163,5 @@ console.log('Original', original);
 console.log('Original Alphabetical', originalAlphabetical);
 console.log('Original Reverse Alphabetical', originalReverseAlphabetical);
 
-
+// 19. Number of items
+console.log('Number of locations:', locations.length);
