@@ -191,55 +191,119 @@
 // console.log('Accessing an invalid');
 // console.log(listOfItems[9]);
 
-// 23 Conditional test
-const car = 'honda';
+// // 23 Conditional test
+// const car = 'honda';
+//
+// console.log("Is car === 'umar? I predict True");
+// console.log(car === 'honda');
+//
+// const userName = 'umar';
+//
+// console.log("Is userName === 'umar'? I predict True");
+// console.log(userName === 'umar');
+//
+// const city = 'Faisalabad';
+//
+// console.log("Is city === 'Faisalabad'? I predict True");
+// console.log(city === 'Faisalabad');
+//
+// const age = 20;
+//
+// console.log("Is Adult? I predict True");
+// console.log(age > 18);
+//
+// console.log("Is Child? I predict False");
+// console.log(age < 18);
+//
+// const country = 'Pakistan';
+//
+// console.log("Is country === 'England'? I predict True");
+// console.log(country === "Pakistan");
+//
+// let fruits = ['apple', 'banana', 'orange'];
+// console.log("Is the fruits array empty? I predict False.");
+// console.log(fruits.length === 0);
+//
+// const marks = 40;
+//
+// console.log("Is marks greater than 50? I predict False.");
+// console.log(marks > 50);
+//
+// console.log("Is marks greater than 35? I predict True.");
+// console.log(marks > 35);
+//
+// console.log("User is passed. I predict True.");
+// console.log(marks > 33);
+//
+// console.log('Banana available, I predict True');
+// console.log(fruits.includes('banana'));
+//
+// console.log('Grapes available, I predict False');
+// console.log(fruits.includes('grapes'));
+//
+// console.log('Peach not available, I predict True');
+// console.log(fruits.includes('peach'));
 
-console.log("Is car === 'umar? I predict True");
-console.log(car === 'honda');
+// // 25. Alien colors
+//
+// const alien_color = 'green';
+//
+// if(alien_color === 'green'){
+//     console.log('The player just earned 5 points.');
+// }
+//
+// // @ts-ignore
+// if(alien_color === 'red'){
+//     console.log('The player just earned 10 points.');
+// }
+//
+// // 26. Alien colors 2
+//
+// if(alien_color === 'green'){
+//     console.log('The player just earned 5 points.');
+// }else {
+//     console.log('The player just earned 10 points.');
+// }
+//
+// // @ts-ignore
+// if(alien_color === 'red'){
+//     console.log('The player just earned 5 points.');
+// }else {
+//     console.log('The player just earned 10 points.');
+// }
 
-const userName = 'umar';
+// 27. Alien colors 3
 
-console.log("Is userName === 'umar'? I predict True");
-console.log(userName === 'umar');
+const greenAlien = 'green';
 
-const city = 'Faisalabad';
+// @ts-ignore
+if(greenAlien === 'green'){
+    console.log('The player just earned 5 points.');
+}else if (greenAlien === 'yellow') {
+    console.log('The player just earned 10 points.');
+} else if (greenAlien === 'red') {
+    console.log('The player just earned 15 points.');
+}
 
-console.log("Is city === 'Faisalabad'? I predict True");
-console.log(city === 'Faisalabad');
+const yellowAlien = 'yellow';
 
-const age = 20;
+// @ts-ignore
+if(yellowAlien === 'green'){
+    console.log('The player just earned 5 points.');
+}else if (yellowAlien === 'yellow') {
+    console.log('The player just earned 10 points.');
+} else if (yellowAlien === 'red') {
+    console.log('The player just earned 15 points.');
+}
 
-console.log("Is Adult? I predict True");
-console.log(age > 18);
+const redAlien = 'red';
 
-console.log("Is Child? I predict False");
-console.log(age < 18);
-
-const country = 'Pakistan';
-
-console.log("Is country === 'England'? I predict True");
-console.log(country === "Pakistan");
-
-let fruits = ['apple', 'banana', 'orange'];
-console.log("Is the fruits array empty? I predict False.");
-console.log(fruits.length === 0);
-
-const marks = 40;
-
-console.log("Is marks greater than 50? I predict False.");
-console.log(marks > 50);
-
-console.log("Is marks greater than 35? I predict True.");
-console.log(marks > 35);
-
-console.log("User is passed. I predict True.");
-console.log(marks > 33);
-
-console.log('Banana available, I predict True');
-console.log(fruits.includes('banana'));
-
-console.log('Grapes available, I predict False');
-console.log(fruits.includes('grapes'));
-
-console.log('Peach not available, I predict True');
-console.log(fruits.includes('peach'));
+// @ts-ignore
+if(redAlien === 'green'){
+    console.log('The player just earned 5 points.');
+// @ts-ignore
+} else if (redAlien === 'yellow') {
+    console.log('The player just earned 10 points.');
+} else if (redAlien === 'red') {
+    console.log('The player just earned 15 points.');
+}
