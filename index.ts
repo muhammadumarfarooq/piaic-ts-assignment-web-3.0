@@ -308,20 +308,44 @@
 //     console.log('The player just earned 15 points.');
 // }
 
-// 28. Stage of life
+// // 28. Stage of life
+//
+// const personAge = 70;
+//
+// if(personAge < 2){
+//  console.log("Person is a baby");
+// } else if(personAge >= 2 && personAge < 4){
+//     console.log("Person is a toddler");
+// } else if(personAge >= 4 && personAge < 13) {
+//     console.log("Person is a kid");
+// }else if(personAge >= 13 && personAge < 20) {
+//     console.log("Person is a teenager");
+// }else if(personAge >= 20 && personAge < 65) {
+//     console.log("Person is an adult");
+// }else {
+//     console.log("Person is an elder");
+// }
 
-const personAge = 70;
+//29. Favorite fruits
 
-if(personAge < 2){
- console.log("Person is a baby");
-} else if(personAge >= 2 && personAge < 4){
-    console.log("Person is a toddler");
-} else if(personAge >= 4 && personAge < 13) {
-    console.log("Person is a kid");
-}else if(personAge >= 13 && personAge < 20) {
-    console.log("Person is a teenager");
-}else if(personAge >= 20 && personAge < 65) {
-    console.log("Person is an adult");
-}else {
-    console.log("Person is an elder");
+const favorite_fruits = ['banana', 'apple', 'orange'];
+
+if(favorite_fruits.includes('banana')){
+    console.log('I really like banana');
+}
+
+if(favorite_fruits.includes('grapes')){
+    console.log('I really like grapes');
+}
+
+if(favorite_fruits.includes('apple')){
+    console.log('I really like apple');
+}
+
+if(favorite_fruits.includes('orange')){
+    console.log("I don't like oranges");
+}
+
+if(!favorite_fruits.includes('mange')){
+    console.log("I really like mangoes but they are not available.");
 }
