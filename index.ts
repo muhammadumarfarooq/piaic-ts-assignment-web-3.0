@@ -476,17 +476,39 @@
 // const greatMagicians = make_great(magicians);
 // console.log(greatMagicians);
 
-// 44. Sandwiches
-function makeSandwich(...ingredients: string[]) {
-    console.log("Sandwich Summary:");
-    if (ingredients.length === 0) {
-        console.log("Your order is empty");
-    } else {
-        console.log(`Bread ${ingredients.join(' + ')} Bread`);
+// // 44. Sandwiches
+// function makeSandwich(...ingredients: string[]) {
+//     console.log("Sandwich Summary:");
+//     if (ingredients.length === 0) {
+//         console.log("Your order is empty");
+//     } else {
+//         console.log(`Bread ${ingredients.join(' + ')} Bread`);
+//     }
+// }
+//
+// makeSandwich('Chicken', 'Ketchup', 'Mayonnaise');
+// makeSandwich('turkey', 'avocado');
+// makeSandwich();
+
+// 45. Cars
+
+const makeCar = (manufacturer: string, modelName: string, ...options: any[]) => {
+    const car: Record<any, any> = {
+        manufacturer,
+        modelName
+    };
+
+    for (let i = 0; i < options.length; i += 2) {
+        const key = options[i] as string;
+        car[key] = options[i + 1];
     }
-}
 
-makeSandwich('Chicken', 'Ketchup', 'Mayonnaise');
-makeSandwich('turkey', 'avocado');
-makeSandwich();
+    return car;
+};
 
+const carInfo = makeCar('Toyota', 'Corolla', 'color', 'blue', 'year', 2023);
+const car1Info = makeCar('Honda', 'BRV', 'color', 'white', 'year', 2020);
+
+
+console.log(carInfo);
+console.log(car1Info);
