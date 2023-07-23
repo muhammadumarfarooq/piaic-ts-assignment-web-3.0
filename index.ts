@@ -326,26 +326,40 @@
 //     console.log("Person is an elder");
 // }
 
-//29. Favorite fruits
+// //29. Favorite fruits
+//
+// const favorite_fruits = ['banana', 'apple', 'orange'];
+//
+// if(favorite_fruits.includes('banana')){
+//     console.log('I really like banana');
+// }
+//
+// if(favorite_fruits.includes('grapes')){
+//     console.log('I really like grapes');
+// }
+//
+// if(favorite_fruits.includes('apple')){
+//     console.log('I really like apple');
+// }
+//
+// if(favorite_fruits.includes('orange')){
+//     console.log("I don't like oranges");
+// }
+//
+// if(!favorite_fruits.includes('mange')){
+//     console.log("I really like mangoes but they are not available.");
+// }
 
-const favorite_fruits = ['banana', 'apple', 'orange'];
+// 30. Hello Admin
+const users = ['Umar', 'Umair', 'admin', 'Hassan', 'Ali'];
 
-if(favorite_fruits.includes('banana')){
-    console.log('I really like banana');
-}
+users.forEach(username => {
+    if(username == 'admin'){
+        console.log('Hello admin, would you like to see a status report?');
+    }else {
+        console.log(`Hello ${username}, thank you for logging in again.`);
+    }
+})
 
-if(favorite_fruits.includes('grapes')){
-    console.log('I really like grapes');
-}
 
-if(favorite_fruits.includes('apple')){
-    console.log('I really like apple');
-}
 
-if(favorite_fruits.includes('orange')){
-    console.log("I don't like oranges");
-}
-
-if(!favorite_fruits.includes('mange')){
-    console.log("I really like mangoes but they are not available.");
-}
