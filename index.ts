@@ -449,12 +449,29 @@
 // console.log(city_country('Sydney', 'Australia'));
 // console.log(city_country('Colombo', 'Sri Lanka'));
 
-// 40. Albums
+// // 40. Albums
+//
+// function make_album(artistName: string, albumTitle: string, numberOfTrack = 1) {
+//     return {artistName, albumTitle, numberOfTrack};
+// }
+//
+// console.log(make_album('John', 'First Song', 5));
+// console.log(make_album('Andrew', 'Second Song',2));
+// console.log(make_album('Maximilian', 'Third Song', ));
 
-function make_album(artistName: string, albumTitle: string, numberOfTrack = 1) {
-    return {artistName, albumTitle, numberOfTrack};
+// 41 and 42 and 43. Magicians
+
+const magicians = ['John', 'Doe', 'Andrew'];
+
+function show_magicians(magicianNames: string[]) {
+    magicianNames.forEach(name => {
+        console.log(name);
+    });
 }
 
-console.log(make_album('John', 'First Song', 5));
-console.log(make_album('Andrew', 'Second Song',2));
-console.log(make_album('Maximilian', 'Third Song', ));
+function make_great(magicianNames: string[]) {
+    return magicianNames.map(name => `Great ${name}`);
+}
+show_magicians(magicians);
+const greatMagicians = make_great(magicians);
+console.log(greatMagicians);
