@@ -405,18 +405,27 @@
 // console.log('I really love pizza!');
 //
 
-// 35. Animals
+// // 35. Animals
+//
+// const animals = ['goat', 'cow', 'sheep'];
+//
+// for(let i = 0; i < animals.length; i++){
+//     if(i == 0){
+//         console.log(`${animals[i]} is very beautiful animal.`);
+//     }else if(i == 1){
+//         console.log(`${animals[i]} gives milk.`);
+//     }else if(i == 2) {
+//         console.log(`${animals[i]} is beautiful`);
+//     }
+//
+// }
+// console.log("These all animals eat grass");
 
-const animals = ['goat', 'cow', 'sheep'];
+// 36 and 37. Make T-Shirts
 
-for(let i = 0; i < animals.length; i++){
-    if(i == 0){
-        console.log(`${animals[i]} is very beautiful animal.`);
-    }else if(i == 1){
-        console.log(`${animals[i]} gives milk.`);
-    }else if(i == 2) {
-        console.log(`${animals[i]} is beautiful`);
-    }
-
+function make_shirt(printMessage: string, size = 'large') {
+  console.log(`The size of the shirt is ${size} and we need to print ${printMessage}.`);
 }
-console.log("These all animals eat grass");
+
+make_shirt('Adidas', 'medium');
+make_shirt('I love Typescript', );
