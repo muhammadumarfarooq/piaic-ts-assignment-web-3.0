@@ -365,21 +365,32 @@
 // })
 // }
 
-// 32. Checking username
+// // 32. Checking username
+//
+// const current_users = ['umar', 'umair', 'hassan', 'ali', 'ahmed'];
+//
+// const new_users = ['awais', 'hamza', 'hasan', 'Umar', 'ALI'];
+//
+// new_users.forEach(newUser => {
+//     const isUserAlreadyAvailable = current_users.find(currentUser => currentUser.toLowerCase() === newUser.toLowerCase());
+//
+//     if(isUserAlreadyAvailable){
+//       console.log(`${newUser} is already available`);
+//     }
+// })
 
-const current_users = ['umar', 'umair', 'hassan', 'ali', 'ahmed'];
+// 33. Ordinal Numbers
 
-const new_users = ['awais', 'hamza', 'hasan', 'Umar', 'ALI'];
+const numbers = [1,2,3,4,5,6,7,8,9];
 
-new_users.forEach(newUser => {
-    const isUserAlreadyAvailable = current_users.find(currentUser => currentUser.toLowerCase() === newUser.toLowerCase());
-
-    if(isUserAlreadyAvailable){
-      console.log(`${newUser} is already available`);
+numbers.forEach((number, index) => {
+    if(index == 0){
+        console.log(`${number}st`);
+    }else if(index == 1){
+        console.log(`${number}nd`);
+    }else if(index == 2){
+        console.log(`${number}rd`);
+    }else {
+        console.log(`${number}th`);
     }
-})
-
-
-
-
-
+});
