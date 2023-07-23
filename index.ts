@@ -350,20 +350,36 @@
 //     console.log("I really like mangoes but they are not available.");
 // }
 
-// 30. Hello Admin
-const users: string[] = ['Umar', 'Umair', 'admin', 'Hassan', 'Ali'];
+// // 30 and 31. Hello Admin
+// const users: string[] = ['Umar', 'Umair', 'admin', 'Hassan', 'Ali'];
+//
+// if(users.length === 0){
+//     console.log('We need to find some users!');
+// }else {
+// users.forEach(username => {
+//     if(username == 'admin'){
+//         console.log('Hello admin, would you like to see a status report?');
+//     }else {
+//         console.log(`Hello ${username}, thank you for logging in again.`);
+//     }
+// })
+// }
 
-if(users.length === 0){
-    console.log('We need to find some users!');
-}else {
-users.forEach(username => {
-    if(username == 'admin'){
-        console.log('Hello admin, would you like to see a status report?');
-    }else {
-        console.log(`Hello ${username}, thank you for logging in again.`);
+// 32. Checking username
+
+const current_users = ['umar', 'umair', 'hassan', 'ali', 'ahmed'];
+
+const new_users = ['awais', 'hamza', 'hasan', 'Umar', 'ALI'];
+
+new_users.forEach(newUser => {
+    const isUserAlreadyAvailable = current_users.find(currentUser => currentUser.toLowerCase() === newUser.toLowerCase());
+
+    if(isUserAlreadyAvailable){
+      console.log(`${newUser} is already available`);
     }
 })
-}
+
+
 
 
 
