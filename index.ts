@@ -379,18 +379,27 @@
 //     }
 // })
 
-// 33. Ordinal Numbers
+// // 33. Ordinal Numbers
+//
+// const numbers = [1,2,3,4,5,6,7,8,9];
+//
+// numbers.forEach((number, index) => {
+//     if(index == 0){
+//         console.log(`${number}st`);
+//     }else if(index == 1){
+//         console.log(`${number}nd`);
+//     }else if(index == 2){
+//         console.log(`${number}rd`);
+//     }else {
+//         console.log(`${number}th`);
+//     }
+// });
 
-const numbers = [1,2,3,4,5,6,7,8,9];
+// 33. Pizza
+const pizzas = ['Chicken Pizza', 'Malai Boti Pizza', 'Special Pizza'];
 
-numbers.forEach((number, index) => {
-    if(index == 0){
-        console.log(`${number}st`);
-    }else if(index == 1){
-        console.log(`${number}nd`);
-    }else if(index == 2){
-        console.log(`${number}rd`);
-    }else {
-        console.log(`${number}th`);
-    }
+pizzas.forEach(pizza => {
+    console.log(`I like ${pizza}`);
 });
+
+console.log('I really love pizza!');
