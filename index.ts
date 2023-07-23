@@ -395,11 +395,28 @@
 //     }
 // });
 
-// 33. Pizza
-const pizzas = ['Chicken Pizza', 'Malai Boti Pizza', 'Special Pizza'];
+// // 34. Pizza
+// const pizzas = ['Chicken Pizza', 'Malai Boti Pizza', 'Special Pizza'];
+//
+// pizzas.forEach(pizza => {
+//     console.log(`I like ${pizza}`);
+// });
+//
+// console.log('I really love pizza!');
+//
 
-pizzas.forEach(pizza => {
-    console.log(`I like ${pizza}`);
-});
+// 35. Animals
 
-console.log('I really love pizza!');
+const animals = ['goat', 'cow', 'sheep'];
+
+for(let i = 0; i < animals.length; i++){
+    if(i == 0){
+        console.log(`${animals[i]} is very beautiful animal.`);
+    }else if(i == 1){
+        console.log(`${animals[i]} gives milk.`);
+    }else if(i == 2) {
+        console.log(`${animals[i]} is beautiful`);
+    }
+
+}
+console.log("These all animals eat grass");
