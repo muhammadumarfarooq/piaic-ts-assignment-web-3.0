@@ -234,3 +234,12 @@ console.log(marks > 35);
 
 console.log("User is passed. I predict True.");
 console.log(marks > 33);
+
+console.log('Banana available, I predict True');
+console.log(fruits.includes('banana'));
+
+console.log('Grapes available, I predict False');
+console.log(fruits.includes('grapes'));
+
+console.log('Peach not available, I predict True');
+console.log(fruits.includes('peach'));
