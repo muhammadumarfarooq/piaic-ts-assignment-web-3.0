@@ -430,12 +430,21 @@
 // make_shirt('Adidas', 'medium');
 // make_shirt('I love Typescript', );
 
-// 38. Cities
+// // 38. Cities
+//
+// function describe_city(name = 'Karachi', country = 'Pakistan') {
+//   console.log(`${name} is in ${country}.`);
+// }
+//
+// describe_city();
+// describe_city('Lahore');
+// describe_city('Mumbai', 'India');
 
-function describe_city(name = 'Karachi', country = 'Pakistan') {
-  console.log(`${name} is in ${country}.`);
+// 39. City Names
+function city_country(city: string, country: string) {
+  return `${city}, ${country}`
 }
 
-describe_city();
-describe_city('Lahore');
-describe_city('Mumbai', 'India');
+console.log(city_country('Faisalabad', 'Pakistan'));
+console.log(city_country('Sydney', 'Australia'));
+console.log(city_country('Colombo', 'Sri Lanka'));
