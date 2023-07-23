@@ -272,38 +272,56 @@
 //     console.log('The player just earned 10 points.');
 // }
 
-// 27. Alien colors 3
+// // 27. Alien colors 3
+//
+// const greenAlien = 'green';
+//
+// // @ts-ignore
+// if(greenAlien === 'green'){
+//     console.log('The player just earned 5 points.');
+// }else if (greenAlien === 'yellow') {
+//     console.log('The player just earned 10 points.');
+// } else if (greenAlien === 'red') {
+//     console.log('The player just earned 15 points.');
+// }
+//
+// const yellowAlien = 'yellow';
+//
+// // @ts-ignore
+// if(yellowAlien === 'green'){
+//     console.log('The player just earned 5 points.');
+// }else if (yellowAlien === 'yellow') {
+//     console.log('The player just earned 10 points.');
+// } else if (yellowAlien === 'red') {
+//     console.log('The player just earned 15 points.');
+// }
+//
+// const redAlien = 'red';
+//
+// // @ts-ignore
+// if(redAlien === 'green'){
+//     console.log('The player just earned 5 points.');
+// // @ts-ignore
+// } else if (redAlien === 'yellow') {
+//     console.log('The player just earned 10 points.');
+// } else if (redAlien === 'red') {
+//     console.log('The player just earned 15 points.');
+// }
 
-const greenAlien = 'green';
+// 28. Stage of life
 
-// @ts-ignore
-if(greenAlien === 'green'){
-    console.log('The player just earned 5 points.');
-}else if (greenAlien === 'yellow') {
-    console.log('The player just earned 10 points.');
-} else if (greenAlien === 'red') {
-    console.log('The player just earned 15 points.');
-}
+const personAge = 70;
 
-const yellowAlien = 'yellow';
-
-// @ts-ignore
-if(yellowAlien === 'green'){
-    console.log('The player just earned 5 points.');
-}else if (yellowAlien === 'yellow') {
-    console.log('The player just earned 10 points.');
-} else if (yellowAlien === 'red') {
-    console.log('The player just earned 15 points.');
-}
-
-const redAlien = 'red';
-
-// @ts-ignore
-if(redAlien === 'green'){
-    console.log('The player just earned 5 points.');
-// @ts-ignore
-} else if (redAlien === 'yellow') {
-    console.log('The player just earned 10 points.');
-} else if (redAlien === 'red') {
-    console.log('The player just earned 15 points.');
+if(personAge < 2){
+ console.log("Person is a baby");
+} else if(personAge >= 2 && personAge < 4){
+    console.log("Person is a toddler");
+} else if(personAge >= 4 && personAge < 13) {
+    console.log("Person is a kid");
+}else if(personAge >= 13 && personAge < 20) {
+    console.log("Person is a teenager");
+}else if(personAge >= 20 && personAge < 65) {
+    console.log("Person is an adult");
+}else {
+    console.log("Person is an elder");
 }
