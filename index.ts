@@ -459,19 +459,34 @@
 // console.log(make_album('Andrew', 'Second Song',2));
 // console.log(make_album('Maximilian', 'Third Song', ));
 
-// 41 and 42 and 43. Magicians
+// // 41 and 42 and 43. Magicians
+//
+// const magicians = ['John', 'Doe', 'Andrew'];
+//
+// function show_magicians(magicianNames: string[]) {
+//     magicianNames.forEach(name => {
+//         console.log(name);
+//     });
+// }
+//
+// function make_great(magicianNames: string[]) {
+//     return magicianNames.map(name => `Great ${name}`);
+// }
+// show_magicians(magicians);
+// const greatMagicians = make_great(magicians);
+// console.log(greatMagicians);
 
-const magicians = ['John', 'Doe', 'Andrew'];
-
-function show_magicians(magicianNames: string[]) {
-    magicianNames.forEach(name => {
-        console.log(name);
-    });
+// 44. Sandwiches
+function makeSandwich(...ingredients: string[]) {
+    console.log("Sandwich Summary:");
+    if (ingredients.length === 0) {
+        console.log("Your order is empty");
+    } else {
+        console.log(`Bread ${ingredients.join(' + ')} Bread`);
+    }
 }
 
-function make_great(magicianNames: string[]) {
-    return magicianNames.map(name => `Great ${name}`);
-}
-show_magicians(magicians);
-const greatMagicians = make_great(magicians);
-console.log(greatMagicians);
+makeSandwich('Chicken', 'Ketchup', 'Mayonnaise');
+makeSandwich('turkey', 'avocado');
+makeSandwich();
+
