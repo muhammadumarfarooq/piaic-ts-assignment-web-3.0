@@ -421,11 +421,21 @@
 // }
 // console.log("These all animals eat grass");
 
-// 36 and 37. Make T-Shirts
+// // 36 and 37. Make T-Shirts
+//
+// function make_shirt(printMessage: string, size = 'large') {
+//   console.log(`The size of the shirt is ${size} and we need to print ${printMessage}.`);
+// }
+//
+// make_shirt('Adidas', 'medium');
+// make_shirt('I love Typescript', );
 
-function make_shirt(printMessage: string, size = 'large') {
-  console.log(`The size of the shirt is ${size} and we need to print ${printMessage}.`);
+// 38. Cities
+
+function describe_city(name = 'Karachi', country = 'Pakistan') {
+  console.log(`${name} is in ${country}.`);
 }
 
-make_shirt('Adidas', 'medium');
-make_shirt('I love Typescript', );
+describe_city();
+describe_city('Lahore');
+describe_city('Mumbai', 'India');
