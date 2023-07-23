@@ -145,44 +145,92 @@
 // favoritePerson.pop();
 // console.log('Invitation List:', favoritePerson);
 
-// 18. Seeing the world
+// // 18. Seeing the world
+//
+// const locations = ['Dubai', 'Australia', 'Turkey', 'United States', 'England'];
+// const sortedAlphabetical = [...locations].sort();
+// const sortedAlphabeticalReverse = [...sortedAlphabetical].reverse();
+// const reversedLocations = [...locations].reverse();
+// const original = [...reversedLocations].reverse();
+// const originalAlphabetical = [...original].sort();
+// const originalReverseAlphabetical = [...originalAlphabetical].reverse();
+//
+// console.log('Original', locations);
+// console.log('Sorted Locations (Alphabetical)', sortedAlphabetical);
+// console.log('Sorted Locations (Alphabetical)', sortedAlphabeticalReverse);
+// console.log('Reversed', reversedLocations);
+// console.log('Original', original);
+// console.log('Original Alphabetical', originalAlphabetical);
+// console.log('Original Reverse Alphabetical', originalReverseAlphabetical);
+//
+// // 19. Number of items
+// console.log('Number of locations:', locations.length);
+//
+// // 20. LIST
+//
+// const listOfItems = ['K2', 'Ravi', 'India', 'Pakistan', 'Faisalabad', 'English', 'Urdu'];
+// console.log(listOfItems);
+//
+// // 21. OBJECTS
+//
+// const student = {
+//     name: 'Umar',
+//     age: 24,
+//     city: 'Faisalabad'
+// };
+//
+// const car = {
+//     brand: 'Honda',
+//     model: '2020',
+//     price: '1000000'
+// };
+//
+// console.log(student, car);
+//
+// // 22 Intentional error
+// console.log('Accessing an invalid');
+// console.log(listOfItems[9]);
 
-const locations = ['Dubai', 'Australia', 'Turkey', 'United States', 'England'];
-const sortedAlphabetical = [...locations].sort();
-const sortedAlphabeticalReverse = [...sortedAlphabetical].reverse();
-const reversedLocations = [...locations].reverse();
-const original = [...reversedLocations].reverse();
-const originalAlphabetical = [...original].sort();
-const originalReverseAlphabetical = [...originalAlphabetical].reverse();
+// 23 Conditional test
+const car = 'honda';
 
-console.log('Original', locations);
-console.log('Sorted Locations (Alphabetical)', sortedAlphabetical);
-console.log('Sorted Locations (Alphabetical)', sortedAlphabeticalReverse);
-console.log('Reversed', reversedLocations);
-console.log('Original', original);
-console.log('Original Alphabetical', originalAlphabetical);
-console.log('Original Reverse Alphabetical', originalReverseAlphabetical);
+console.log("Is car === 'umar? I predict True");
+console.log(car === 'honda');
 
-// 19. Number of items
-console.log('Number of locations:', locations.length);
+const userName = 'umar';
 
-// 20. LIST
+console.log("Is userName === 'umar'? I predict True");
+console.log(userName === 'umar');
 
-const listOfItems = ['K2', 'Ravi', 'India', 'Pakistan', 'Faisalabad', 'English', 'Urdu'];
-console.log(listOfItems);
+const city = 'Faisalabad';
 
-// 21. OBJECTS
+console.log("Is city === 'Faisalabad'? I predict True");
+console.log(city === 'Faisalabad');
 
-const student = {
-    name: 'Umar',
-    age: 24,
-    city: 'Faisalabad'
-};
+const age = 20;
 
-const car = {
-    brand: 'Honda',
-    model: '2020',
-    price: '1000000'
-};
+console.log("Is Adult? I predict True");
+console.log(age > 18);
 
-console.log(student, car);
+console.log("Is Child? I predict False");
+console.log(age < 18);
+
+const country = 'Pakistan';
+
+console.log("Is country === 'England'? I predict True");
+console.log(country === "Pakistan");
+
+let fruits = ['apple', 'banana', 'orange'];
+console.log("Is the fruits array empty? I predict False.");
+console.log(fruits.length === 0);
+
+const marks = 40;
+
+console.log("Is marks greater than 50? I predict False.");
+console.log(marks > 50);
+
+console.log("Is marks greater than 35? I predict True.");
+console.log(marks > 35);
+
+console.log("User is passed. I predict True.");
+console.log(marks > 33);
