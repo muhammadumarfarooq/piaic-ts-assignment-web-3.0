@@ -440,11 +440,21 @@
 // describe_city('Lahore');
 // describe_city('Mumbai', 'India');
 
-// 39. City Names
-function city_country(city: string, country: string) {
-  return `${city}, ${country}`
+// // 39. City Names
+// function city_country(city: string, country: string) {
+//   return `${city}, ${country}`
+// }
+//
+// console.log(city_country('Faisalabad', 'Pakistan'));
+// console.log(city_country('Sydney', 'Australia'));
+// console.log(city_country('Colombo', 'Sri Lanka'));
+
+// 40. Albums
+
+function make_album(artistName: string, albumTitle: string, numberOfTrack = 1) {
+    return {artistName, albumTitle, numberOfTrack};
 }
 
-console.log(city_country('Faisalabad', 'Pakistan'));
-console.log(city_country('Sydney', 'Australia'));
-console.log(city_country('Colombo', 'Sri Lanka'));
+console.log(make_album('John', 'First Song', 5));
+console.log(make_album('Andrew', 'Second Song',2));
+console.log(make_album('Maximilian', 'Third Song', ));
